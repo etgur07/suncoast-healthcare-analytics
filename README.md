@@ -43,21 +43,20 @@ The supplied SQL schema defines primary keys on the ID fields and foreign-key re
 
 ## Power BI Dashboard Gallery
 
-### 1. Executive Overview
-![Executive Overview](screenshots/01_executive_overview.png)
+<h3>1. Executive Overview</h3>
+<img src="screenshots/01_executive_overview.png" alt="Executive Overview" width="750">
 
-### 2. Patient Access Analysis
-![Patient Access Analysis](screenshots/02_patient_access_analysis.png)
+<h3>2. Patient Access Analysis</h3>
+<img src="screenshots/02_patient_access_analysis.png" alt="Patient Access Analysis" width="750">
 
-### 3. Provider Performance
-![Provider Performance](screenshots/03_provider_performance.png)
+<h3>3. Provider Performance</h3>
+<img src="screenshots/03_provider_performance.png" alt="Provider Performance" width="750">
 
-### 4. Wait Time & Access Risk Lab
-![Wait Time & Access Risk Lab](screenshots/04_wait_time_access_risk.png)
+<h3>4. Wait Time & Access Risk Lab</h3>
+<img src="screenshots/04_wait_time_access_risk.png" alt="Wait Time & Access Risk Lab" width="750">
 
-### 5. Revenue Cycle Analysis
-![Revenue Cycle Analysis](screenshots/05_revenue_cycle_analysis.png)
-
+<h3>5. Revenue Cycle Analysis</h3>
+<img src="screenshots/05_revenue_cycle_analysis.png" alt="Revenue Cycle Analysis" width="750">
 
 All five report pages are verified in the uploaded final `.pbix` and have a 1920 × 1080 report canvas.
 
