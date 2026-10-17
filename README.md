@@ -40,15 +40,24 @@ The supplied SQL schema defines primary keys on the ID fields and foreign-key re
 6. **Power BI modeling:** Built measures, calculated columns, relationships, slicers, and interactive reports.
 7. **Interactive risk analysis:** Applied a user-selectable no-show threshold alongside wait-time thresholds to categorize departments.
 
-## Dashboard pages
 
-| Page | Key content |
-| --- | --- |
-| **Executive Overview** | Appointment KPIs, monthly trends, departmental no-shows, provider summary, revenue by insurance |
-| **Patient Access Analysis** | Appointment status breakdown, no-show by appointment type, wait-time distribution, departmental wait times |
-| **Provider Performance** | Top providers, specialty comparison, provider matrix, workload vs no-show scatter plot |
-| **Wait Time & Access Risk Lab** | Dynamic risk counts, threshold parameter, department classification and scatter plot, risk matrix |
-| **Revenue Cycle Analysis** | Claims, charges, payments, balances, denial rates, insurance comparisons, paid amount by appointment month |
+## Power BI Dashboard Gallery
+
+### 1. Executive Overview
+![Executive Overview](screenshots/01_executive_overview.png)
+
+### 2. Patient Access Analysis
+![Patient Access Analysis](screenshots/02_patient_access_analysis.png)
+
+### 3. Provider Performance
+![Provider Performance](screenshots/03_provider_performance.png)
+
+### 4. Wait Time & Access Risk Lab
+![Wait Time & Access Risk Lab](screenshots/04_wait_time_access_risk.png)
+
+### 5. Revenue Cycle Analysis
+![Revenue Cycle Analysis](screenshots/05_revenue_cycle_analysis.png)
+
 
 All five report pages are verified in the uploaded final `.pbix` and have a 1920 × 1080 report canvas.
 
