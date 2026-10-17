@@ -45,6 +45,8 @@ The supplied SQL schema defines primary keys on the ID fields and foreign-key re
 
 - [End-to-End Technical Workflow](docs/TECHNICAL_WORKFLOW.md)
 - [SQL Data Dictionary](docs/DATA_DICTIONARY.md)
+- [DAX Measures & Risk Logic](docs/DAX_MEASURES.md)
+- [Data Model & Relationships](docs/DATA_MODEL_RELATIONSHIPS.md)
 
 
 ## Power BI Dashboard Walkthrough
