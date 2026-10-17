@@ -1,4 +1,4 @@
-# Suncoast Health Network — Healthcare Operations Analytics
+# Suncoast Health Network | Healthcare Operations Analytics
 
 **End-to-end data analytics portfolio project** | Microsoft SQL Server · SSMS · Excel · Power Query · Power Pivot · DAX · Power BI
 
