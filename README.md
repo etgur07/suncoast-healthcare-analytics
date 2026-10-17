@@ -41,6 +41,12 @@ The supplied SQL schema defines primary keys on the ID fields and foreign-key re
 7. **Interactive risk analysis:** Applied a user-selectable no-show threshold alongside wait-time thresholds to categorize departments.
 
 
+## Technical Documentation
+
+- [End-to-End Technical Workflow](docs/TECHNICAL_WORKFLOW.md)
+- [SQL Data Dictionary](docs/DATA_DICTIONARY.md)
+
+
 ## Power BI Dashboard Walkthrough
 
 The final Power BI report consists of five interactive dashboards designed to analyze patient access, appointment efficiency, provider productivity, departmental risk, and revenue cycle performance.
