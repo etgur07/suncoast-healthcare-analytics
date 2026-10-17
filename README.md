@@ -100,20 +100,10 @@ suncoast-health-analytics/
     └── dax_measures.md
 ```
 
-## Reproducibility notes
+#### Data Sources & Reproducibility
 
-The import script currently points to a local Windows directory (`C:\SuncoastHealthDatasets`), which other users will need to replace. The supplied schema script starts with `USE SuncoastHealthAnalytics` rather than creating the database; a fresh setup requires creating the database first. The schema also contains a trailing comma after `PatientSegment VARCHAR(50)` that should be fixed in a publish-ready script. The original source CSVs are not included in the current upload and are needed for complete re-execution.
+This project uses simulated healthcare operational data covering 2023–2025. It includes SQL Server scripts, an Excel Power Pivot workbook, and a five-page Power BI report.
 
-## Next steps before publishing
+The original source CSV files are not currently included in this repository. SQL import scripts reference a local development directory and require path adjustments before execution.
 
-- Export verified, clean full-page screenshots from Power BI.
-- Review SQL scripts for a reproducible run order and remove redundant queries.
-- Export and review DAX measures and relationship details using Power BI tools.
-- Confirm that every slicer affects the intended fact tables.
-- Check `.pbix` connection settings and repository files for personal/local paths before publishing.
-
-## Publication status and verification boundary
-
-This repository contains the supplied PBIX and Excel workbooks plus cleaned, publication-ready SQL scripts and documented assumptions. Raw CSV inputs and reproducible Power Query step exports are not included; restoring the complete source workflow requires those inputs. DAX documented in `docs/dax_measures.md` is reconstructed from development notes and should be confirmed against the Desktop model before publication.
-
-The `screenshots/` directory is reserved for clean exported report pages; draft Power BI editing screenshots should not be presented as official exports.
+The repository provides the project's analytical workflow and supporting documentation. Full end-to-end reproduction requires the original input datasets and validation of the documented model configuration.
